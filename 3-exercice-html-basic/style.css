@@ -1,3 +1,18 @@
+@font-face {
+    font-family: RobotoM;
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: Wimp-Out;
+    src: url("./fonts/wimpe.ttf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +20,8 @@
 body {
     margin: 50px 0 0 0;
     padding: 0;
+    
+    font-family: Roboto;
 }
 
 .topBar {
@@ -20,8 +37,14 @@ body {
     
     height: 50px;
     
-    background: rgba(255,255,255,.85);
-    border-bottom: 1px solid grey;
+    background: rgba(255,255,255,.7);
+    border-bottom: 1px solid white;
+    
+    z-index: 10;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: RobotoM;
 }
 
 h1 {
@@ -29,33 +52,46 @@ h1 {
     padding: 0 15px;
     
     line-height: 50px;
+    
+    color: darkgreen;
+    text-shadow: 1px 0 2px white;
+    
+    font-family: Wimp-Out;
 }
 
 .welcome { 
-    background-image: url("https://www.notre-planete.info/actualites/images/biodiversite/baleiniers_Greenpeace.jpg");
+    background-image: url("https://cdn.greenpeace.fr/site/featured/blog/uploads/2016/12/GP0LFZ_Medium_res_with_credit_line.jpg");
     background-position: top center;
     background-size: cover;
     
-    min-height: 300px;
+    min-height: 600px;
     
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
-.introtxt {
+.box {
     display: block;
+    float: left;
     
     color: white;
-    background: black;
+    background-color: rgba(0,0,0,.7);
     
     width: 400px;
-    height: 170px;
     
-    margin: 0 auto;
+    margin-left: 50%;
     padding: 10px;
     
     border-radius: 10px;
     
-    transform: translateY(200px);
+    margin-top: 400px;
+    
+    text-align: center;
+    
+    transform: translateX(-50%)
+}
+.boxtitle {
+    margin: 5px auto;
+    color: greenyellow;
 }
 
 a.button { 
@@ -63,21 +99,29 @@ a.button {
     
     padding: 5px;
     
-    background: grey;
-    color: black;
+    background: yellow;
+    color: darkgreen;
     
+    font-family: RobotoM;
     text-decoration: none;
     
-    max-width: 100px;
-    
+    padding: 5px;
     margin: 10px auto;
     
-    border: 1px solid transparent;
+    width: 120px;
+    
+    border: 1px solid yellow;
+    
+    border-radius: 3px;
+    
+    transition: .2s ease-in-out;
 }
 a.button:hover {
-    background: black;
-    color: white;
+    background: transparent;
+    color: yellow;
     border: 1px solid white;
+    
+    transform: scale(1.1);
 }
 
 ul.three_col {
@@ -92,23 +136,25 @@ ul.three_col li {
     float: left; 
     width: 220px;
     margin-right: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
 }
 ul.three_col li:last-child {
     margin-right: 0;
 }
 
-.quote {
+ul.three_col li h2 {
+    height: 64px;
+}
+
+.quotesection {
     clear: both;
     
-    margin: 20px 0;
+    margin: 20px 0 0 0;
     
     background-image: url("http://media-channel.nationalgeographic.com/media/uploads/photos/content/photo/2015/01/21/DisorderlyConduct__1_AnimalsGoneWild.jpg");
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
-    
-    height: 250px;
     
     text-align: center;
     line-height: 250px;
@@ -116,7 +162,87 @@ ul.three_col li:last-child {
     color: white;
 }
 
-blockquote.quote { 
+.quote {
+    background: rgba(0,0,0,.7);
     display: block;
-    background-color: rgba(0,0,0,.7);
+    
+    line-height: 2em;
+    font-size: 2em;
+    
+    margin: 0 auto;
 }
+
+.quote h3 { 
+    display: block;
+    width: 800px; 
+    margin: 0 auto;
+    padding: 25vh 0;
+}
+
+.playersection { 
+    padding: 50px 0;
+    margin: 0 auto;
+    
+    background: black;
+    color: white;
+}
+
+.playersection ul {
+    display: block;
+    
+    list-style: none;
+    padding-left: 0;
+    
+    width: 800px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.playersection ul li.player {
+    display: block;
+    float: left;
+    width: 530px;
+}
+.video_climate {
+    display: block;
+    
+    width: 100%;
+    border: 0;
+}
+
+.playersection ul li.player_text {
+    float: right;
+    width: 220px;
+}
+.player_text p { line-height: 33px; }
+
+.others {
+    clear: both;
+    display: block;
+    padding: 50px;
+    
+    background-color: #666;
+}
+
+.assos { 
+    display: block;
+    
+    margin: 0;
+    height: 100%;
+    
+    list-style: none;
+    padding-left: 0;
+}
+
+.assos li {
+    float: left; 
+    display: block;
+    
+    margin: 0 20px 20px 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    
+    
+}
+
