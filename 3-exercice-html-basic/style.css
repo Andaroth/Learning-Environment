@@ -124,6 +124,8 @@ a.button:hover {
     transform: scale(1.1);
 }
 
+.about ul li p { line-height: 1.5em; }
+
 ul.three_col {
     display: block;
     max-width: 800px;
@@ -222,27 +224,37 @@ ul.three_col li h2 {
     padding: 50px;
     
     background-color: #666;
+    
+    text-align: center;
 }
 
 .assos { 
-    display: block;
+    display: inline-block;
     
-    margin: 0;
-    height: 100%;
+    width: 800px;
+    margin: 0 auto;
+    height: 100%; 
     
     list-style: none;
     padding-left: 0;
 }
 
+
 .assos li {
     float: left; 
     display: block;
     
-    margin: 0 20px 20px 0;
-    width: 100px;
-    height: 100px;
-    border: 1px solid white;
+    margin: 0 28px 28px 0;
+    width: 179px;
+    height: 179px;
     
+    border-radius: 50%;
     
+    background: rgba(255,255,255,.6);
 }
+.assos li:nth-child(4n) {
+    margin: 0 0 28px 0;
+}
+
+
 
