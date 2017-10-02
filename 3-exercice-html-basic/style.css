@@ -253,6 +253,12 @@ ul.three_col li h2 {
     text-align: center;
 }
 
+.others h2 {
+    font-size: 2em;
+    color: #afafaf;
+    padding-bottom: 35px;
+}
+
 .assos { 
     display: inline-block;
     
