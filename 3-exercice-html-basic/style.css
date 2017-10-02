@@ -32,7 +32,9 @@ h1 {
 }
 
 .welcome { 
-    background: blue;
+    background-image: url("https://www.notre-planete.info/actualites/images/biodiversite/baleiniers_Greenpeace.jpg");
+    background-position: top center;
+    background-size: cover;
     
     min-height: 300px;
     
@@ -79,11 +81,42 @@ a.button:hover {
 }
 
 ul.three_col {
+    display: block;
     max-width: 800px;
     
     list-style: none;
+    
+    margin: 0 auto;
 }
 ul.three_col li {
     float: left; 
-    width: 255px;
+    width: 220px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+}
+ul.three_col li:last-child {
+    margin-right: 0;
+}
+
+.quote {
+    clear: both;
+    
+    margin: 20px 0;
+    
+    background-image: url("http://media-channel.nationalgeographic.com/media/uploads/photos/content/photo/2015/01/21/DisorderlyConduct__1_AnimalsGoneWild.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    height: 250px;
+    
+    text-align: center;
+    line-height: 250px;
+    
+    color: white;
+}
+
+blockquote.quote { 
+    display: block;
+    background-color: rgba(0,0,0,.7);
 }
