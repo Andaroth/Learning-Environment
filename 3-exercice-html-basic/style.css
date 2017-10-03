@@ -278,15 +278,20 @@ ul.three_col li h2 {
     display: block;
     
     margin: 0 28px 28px 0;
+}
+.assos li:nth-child(4n) {
+    margin: 0 0 28px 0;
+}
+
+.assos li a {
+    display: block;
+    
     width: 179px;
     height: 179px;
     
     line-height: 179px;
     
     background: rgba(255,255,255,.6);
-}
-.assos li:nth-child(4n) {
-    margin: 0 0 28px 0;
 }
 
 assos li a img {
