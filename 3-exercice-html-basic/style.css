@@ -281,6 +281,8 @@ ul.three_col li h2 {
     width: 179px;
     height: 179px;
     
+    line-height: 179px;
+    
     background: rgba(255,255,255,.6);
 }
 .assos li:nth-child(4n) {
