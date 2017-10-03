@@ -123,7 +123,9 @@ a.button:hover {
     transform: scale(1.1);
 }
 
-.about ul li p { line-height: 1.5em; }
+.about ul li p { 
+    line-height: 1.5em; 
+}
 
 ul.three_col {
     display: block;
@@ -279,13 +281,15 @@ ul.three_col li h2 {
     width: 179px;
     height: 179px;
     
-    border-radius: 50%;
-    
     background: rgba(255,255,255,.6);
 }
 .assos li:nth-child(4n) {
     margin: 0 0 28px 0;
 }
 
+assos li a img {
+    height: 150px;
+    width: 150px;
+}
 
 
