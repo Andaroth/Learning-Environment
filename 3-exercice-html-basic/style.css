@@ -42,6 +42,49 @@ body {
     z-index: 10;
 }
 
+.menu {
+    display: block;
+    
+    top: 0;
+    position: fixed;
+    right: 15px;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+    
+    margin: 0;
+    
+    display: inline-block;
+}
+
+.menu ul li {
+    float: left;
+    
+    padding: 0 10px;
+}
+
+.menu ul li a {
+    display: block;
+    
+    color: #151515;
+    font-family: RobotoM;
+    
+    height: 50px;
+    line-height: 50px;
+    
+    text-decoration: none;
+    
+    border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover {
+    border-bottom: 2px solid green;
+    color: green;
+    
+    text-shadow: 0 1px 0 yellow;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: RobotoM;
 }
@@ -52,10 +95,17 @@ h1 {
     
     line-height: 50px;
     
-    color: darkgreen;
-    text-shadow: 1px 0 2px white;
-    
     font-family: Wimp-Out;
+}
+
+h1 a { 
+    color: darkgreen; 
+    text-decoration: none;
+    
+    text-shadow: 1px 0 2px white;
+}
+h1 a:hover {
+    text-shadow: 0 0 5px yellow;
 }
 
 .welcome { 
@@ -199,6 +249,8 @@ ul.three_col li h2 {
     font-size: 2em;
     
     margin: 0 auto;
+    
+    color: yellow;
 }
 
 .quote h3 { 
@@ -243,6 +295,7 @@ ul.three_col li h2 {
     float: right;
     width: 220px;
 }
+.videotitle { color: green; }
 .player_text p { line-height: 33px; }
 
 .others {

@@ -6,6 +6,8 @@
     min-height: 250px;
 }
 
+.menu { display: none; }
+
 .box {
     margin-top: 170px;
     width: 100%;
