@@ -1,0 +1,57 @@
+* {
+    max-width: 800px;
+}
+
+.welcome {
+    min-height: 250px;
+}
+
+.box {
+    margin-top: 170px;
+    width: 100%;
+    
+    border-radius: 0;
+}
+
+.quote h3 { 
+    width: 400px;
+}
+
+.playersection ul {
+    width: auto;
+}
+
+.playersection ul li.player,
+.playersection ul li.player_text {
+    clear: both;
+    width: 100%;
+}
+
+.player_text p {
+    background: #151515;
+    margin: 0;
+    padding: 15px;
+}
+
+ul.three_col li {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.assos {
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.assos li {
+    width: 150px;
+    margin: 15px auto;
+}
+
+.assos li:nth-child(4n) {
+    margin: 15px auto;
+}
