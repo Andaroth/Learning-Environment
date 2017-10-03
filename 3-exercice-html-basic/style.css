@@ -78,7 +78,8 @@ body {
     
     border-bottom: 2px solid transparent;
 }
-.menu ul li a:hover {
+.menu ul li a:hover,
+.menu ul li a:focus {
     border-bottom: 2px solid green;
     color: green;
     
@@ -104,7 +105,8 @@ h1 a {
     
     text-shadow: 1px 0 2px white;
 }
-h1 a:hover {
+h1 a:hover,
+h1 a:focus {
     text-shadow: 0 0 5px yellow;
 }
 
@@ -165,7 +167,8 @@ a.button {
     
     transition: .2s ease-in-out;
 }
-a.button:hover {
+a.button:hover,
+a.button:focus {
     background: transparent;
     color: yellow;
     border: 1px solid white;
