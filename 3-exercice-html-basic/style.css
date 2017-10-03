@@ -59,7 +59,7 @@ h1 {
 }
 
 .welcome { 
-    background-image: url("https://cdn.greenpeace.fr/site/featured/blog/uploads/2016/12/GP0LFZ_Medium_res_with_credit_line.jpg");
+    background-image: url("./img/forest.jpg");
     background-position: top center;
     background-size: cover;
     
@@ -152,7 +152,7 @@ ul.three_col li h2 {
     
     margin: 20px 0 0 0;
     
-    background-image: url("http://media-channel.nationalgeographic.com/media/uploads/photos/content/photo/2015/01/21/DisorderlyConduct__1_AnimalsGoneWild.jpg");
+    background-image: url("./img/tiger.jpg");
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
