@@ -17,6 +17,8 @@
     box-sizing: border-box;
 }
 
+#red::selected .topBar { background: red; }
+
 body {
     margin: 50px 0 0 0;
     padding: 0;
@@ -159,9 +161,10 @@ a.button {
     padding: 5px;
     margin: 10px auto;
     
-    width: 120px;
+    width: 200px;
+    font-size: 1.5em;
     
-    border: 1px solid yellow;
+    border: 2px solid yellow;
     
     border-radius: 3px;
     
@@ -171,7 +174,7 @@ a.button:hover,
 a.button:focus {
     background: transparent;
     color: yellow;
-    border: 1px solid white;
+    border: 2px solid white;
     
     transform: scale(1.1);
 }
@@ -180,25 +183,23 @@ a.button:focus {
     line-height: 1.5em; 
 }
 
-ul.three_col {
+.three_col {
     display: block;
     max-width: 800px;
     
-    list-style: none;
-    
     margin: 0 auto;
 }
-ul.three_col li {
+.three_col div{
     float: left; 
     width: 220px;
     margin-right: 50px;
     padding-bottom: 50px;
 }
-ul.three_col li:last-child {
+.three_col div:last-child {
     margin-right: 0;
 }
 
-ul.three_col li h2 {
+.three_col div h2 {
     min-height: 64px;
 }
 
@@ -320,7 +321,7 @@ ul.three_col li h2 {
 .assos { 
     display: inline-block;
     
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     height: 100%; 
     
