@@ -144,7 +144,7 @@ ul.three_col li:last-child {
 }
 
 ul.three_col li h2 {
-    height: 64px;
+    min-height: 64px;
 }
 
 .quotesection {
