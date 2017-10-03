@@ -19,12 +19,12 @@
     width: 400px;
 }
 
-.playersection ul {
+.playersection div {
     width: auto;
 }
 
-.playersection ul li.player,
-.playersection ul li.player_text {
+.playersection div div.player,
+.playersection div div.player_text {
     clear: both;
     width: 100%;
 }

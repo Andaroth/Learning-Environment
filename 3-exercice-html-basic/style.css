@@ -26,7 +26,7 @@ body {
     font-family: Roboto;
 }
 
-.topBar {
+header {
     display: block;
     margin: 0;
     
@@ -272,7 +272,7 @@ a.button:focus {
     color: white;
 }
 
-.playersection ul {
+.playersection div {
     display: block;
     
     list-style: none;
@@ -283,7 +283,7 @@ a.button:focus {
     margin: 20px auto;
 }
 
-.playersection ul li.player {
+.playersection div div.player {
     display: block;
     float: left;
     width: 530px;
@@ -292,10 +292,11 @@ a.button:focus {
     display: block;
     
     width: 100%;
+    height: 300px;
     border: 0;
 }
 
-.playersection ul li.player_text {
+.playersection div div.player_text {
     float: right;
     width: 220px;
 }
