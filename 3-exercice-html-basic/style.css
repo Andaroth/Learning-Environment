@@ -61,8 +61,6 @@ body {
 
 .menu ul li {
     float: left;
-    
-    padding: 0 10px;
 }
 
 .menu ul li a {
@@ -74,13 +72,15 @@ body {
     height: 50px;
     line-height: 50px;
     
+    padding: 0 10px;
+    
     text-decoration: none;
     
-    border-bottom: 2px solid transparent;
+    border-bottom: 5px solid transparent;
 }
 .menu ul li a:hover,
 .menu ul li a:focus {
-    border-bottom: 2px solid green;
+    border-bottom: 5px solid green;
     color: green;
     
     text-shadow: 0 1px 0 yellow;
@@ -348,11 +348,22 @@ ul.three_col li h2 {
     line-height: 179px;
     
     background: rgba(255,255,255,.6);
+    
+    transition: .2s ease-in-out;
 }
 
-assos li a img {
-    height: 150px;
-    width: 150px;
+.assos li a:hover,
+.assos li a:focus {
+    transform: scale(1.05);
 }
+
+.assos li a img {
+    max-height: 150px;
+    max-width: 150px;
+    
+    
+}
+
+
 
 
