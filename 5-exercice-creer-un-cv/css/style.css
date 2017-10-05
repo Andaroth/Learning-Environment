@@ -1,0 +1,68 @@
+@font-face {
+    font-family: RobotoM;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: Roboto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.allcontent {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    
+    background: #cecece;
+}
+
+nav ul {
+    display: block;
+    
+    height: 40px;
+    
+    background: #ccc;
+    
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    
+    padding: 0 10px;
+    border-right: 1px solid white;
+    
+    line-height: 40px;
+    height: 40px;
+    
+    color: black;
+}
+nav ul li a:hover {
+    background: white;
+    text-decoration: underline;
+}
+
+header {
+    clear: left;
+}
