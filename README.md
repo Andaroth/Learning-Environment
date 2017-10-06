@@ -1,4 +1,4 @@
-# Learning-Environment de Axel Fiolle
+# Axel Fiolle
 
 ## Vous trouverez ici un dossier pour chaque exercice demandé pour La Praire de BeCode
 
