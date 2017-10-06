@@ -26,7 +26,7 @@ ul {
 }
 
 ul.dotted {
-    list-style: upper-roman;
+    list-style: dotted;
     padding-left: 25px;
 }
 
@@ -36,11 +36,16 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: RobotoM;
+    color: deepskyblue;
 }
 
 h1 {
     text-align: center;
     font-size: 2.1em;
+}
+
+.banner h2 {
+    text-align: center;
 }
 
 .pdp {
@@ -55,7 +60,7 @@ h1 {
 
 .allcontent {
     display: block;
-    margin-left: 290px;
+    margin-left: 270px;
 }
 
 .sidebar {
@@ -69,7 +74,13 @@ h1 {
     
     padding: 10px;
     
-    background: lightgrey;
+    border-right: 5px solid aliceblue;
+    
+    direction: rtl;
+    overflow-y: scroll;
+}
+.sidebar * {
+    direction: ltr;
 }
 
 nav ul {
@@ -81,7 +92,7 @@ nav ul li a {
     
     margin-top: 10px;
     padding-left: 15px;
-    border-left: 3px solid white;
+    border-left: 3px solid lightskyblue;
     
     line-height: 40px;
     height: 40px;
@@ -89,44 +100,47 @@ nav ul li a {
     color: black;
 }
 nav ul li a:hover {
-    background: white;
-    text-decoration: underline;
-}
-.sideLink_onview {
-    border-left: 3px solid violet;
+    background: skyblue;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    border-left: 3px solid skyblue;
 }
 
-section {
+main section {
+    clear: both;
     display: block; 
     min-height: 100vh;
+    border-bottom: 10px solid aliceblue;
+    margin-bottom: 20px;
+    
+    padding: 15px;
 }
 
-section * {
-    margin: auto;
-}
 
 main section h2 {
     height: 50px;
     line-height: 50px;
     font-size: 2em; 
     
-    text-align: right;
-    margin-right: 15px;
-    padding-right: 10px;
-    border-right: 2px solid lightgrey;
-}
-
-main section:nth-child(2n+0) {
-    background: #dedede;
-}
-
-main section:nth-child(2n+0) h2 {
-    text-align: left;
-    margin-right: 0;
-    padding-right: 0;
-    border-right: 0;
-    border-left: 2px solid lightgrey;
+    border-left: 2px solid lightskyblue;
     padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+main section h3 {
+    color: blue;
+}
+
+.floater {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px; 
+    width: 80%;
+}
+
+.floater div {
+    margin-top: 0;
 }
 
 #folio {
@@ -155,14 +169,14 @@ main section:nth-child(2n+0) h2 {
     
     padding: 15px;
     
-    background: rgba(0,0,0,.3);
+    background-color: midnightblue;
     
     transition: .2s ease;
 }
 #folio ul li a span {
     margin: auto;
     
-    color: #252525;
+    color: white;
     font-family: RobotoM;
     text-align: center;
 }
@@ -174,12 +188,18 @@ main section:nth-child(2n+0) h2 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .skills_technos li {
-    border: 1px solid white;
     overflow: hidden;
     
+    border-bottom: 1px solid lightgrey;
     width: 100%;
 } 
+.techno_open {
+    max-height: none;
+}
+.skills_techno li h3 {
+    margin: auto;
+}
