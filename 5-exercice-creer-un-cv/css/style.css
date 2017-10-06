@@ -195,7 +195,7 @@ main section h3 {
     
     background-color: midnightblue;
     
-    transition: .2s ease;
+    transition: .2s cubic-bezier(.68,-0.55,.27,1.55);
 }
 #folio ul li a span {
     margin: auto;
