@@ -224,8 +224,9 @@ main section h3 {
     white-space: nowrap;
     overflow: hidden;
     
-    background-size: 100px;
-    background-position: center;
+    background-size: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
 } 
 
     li.html { background-image: url("../img/html.png"); }
