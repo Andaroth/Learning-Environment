@@ -233,10 +233,15 @@ main section h3 {
     li.css { background-image: url("../img/css.png"); }
     li.js { background-image: url("../img/js.png"); }
     li.jquery { background-image: url("../img/jquery.png"); }
+    li.wp { background-image: url("../img/wp.png"); }
     li.php { background-image: url("../img/php.png"); }
     li.java { background-image: url("../img/java.png"); }
+    li.electron { background-image: url("../img/electron.png"); }
+    li.cordova { background-image: url("../img/cordova.png"); }
     li.sql { background-image: url("../img/sql.png"); }
     li.phpmy{ background-image: url("../img/phpmy.png"); }
+    li.psd{ background-image: url("../img/psd.png"); }
+    li.ai{ background-image: url("../img/ai.png"); }
 
 .skills_techno li h3 {
     margin: auto;
