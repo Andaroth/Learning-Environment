@@ -24,6 +24,9 @@
 .chara h1 { 
     font-size: 50px; 
     margin: 0;
+    
+    height: 70px;
+    overflow: hidden;
 }
 
 .about {
