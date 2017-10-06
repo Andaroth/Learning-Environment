@@ -11,7 +11,7 @@
     <body>
             
         <section class="sidebar">
-            <img src="./" alt="Photo de Axel FIolle">
+            <img class="pdp" src="./img/profilepic.jpg" alt="Photo de Axel FIolle">
             <div class="chara">
                 <h1>Axel Fiolle</h1>
             </div>
@@ -21,10 +21,10 @@
             </div>
             <nav>
                 <ul>
-                   <li><a class="goScroll" href="#folio">Créations</a></li>
-                    <li><a class="goScroll" href="#skills">Compétences</a></li>
-                    <li><a class="goScroll" href="#learn">Formation</a></li>
-                    <li><a class="goScroll" href="#about">À propos</a></li>
+                   <li><a class="goScroll folio" href="#folio">Créations</a></li>
+                    <li><a class="goScroll skills" href="#skills">Compétences</a></li>
+                    <li><a class="goScroll learn" href="#learn">Formation</a></li>
+                    <li><a class="goScroll about" href="#about">À propos</a></li>
                 </ul>
             </nav>
         </section>
@@ -33,31 +33,58 @@
             <section id="folio">
                <h2>Créations</h2>
                 <ul>
-                    <li>Mon site web personnel</li>
-                    <li>Ma carte électronique</li>
-                    <li>Un template Tumblr</li>
-                    <li>L'Agence Du Web</li>
-                    <li>Lüge Studio</li>
+                    <li><a class="myweb" href="" target="_blank"><span>Mon site web personnel</span></a></li>
+                    <li><a class="vcard" href="" target="_blank"><span>Ma carte électronique</span></a></li>
+                    <li><a class="mytumblr" href="" target="_blank"><span>Un template Tumblr</span></a></li>
+                    <li><a class="agencedu" href="" target="_blank"><span>L'Agence Du Web</span></a></li>
+                    <li><a class="lugestudio" href="" target="_blank"><span>Lüge Studio</span></a></li>
                     <li></li>
                 </ul>
             </section>
 
             <section id="skills">
                 <h2>Compétences</h2>
-                <ul>
-                    <li>Développement front-end de A à Z</li>
-                    <li>Création de sites WordPress</li>
-                    <li>Créations d'Applis web et mobiles</li>
+                <ul class="dotted">
+                    <li>
+                        <h3>Développement front-end de A à Z</h3>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Création de sites WordPress</h3>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Créations d'Applis web et mobiles</h3>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
                 </ul>
                 <h2>Connaissances</h2>
                 <ul class="skills_technos">
-                    <li>HTML5/CSS3</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>PHP</li>
-                    <li>Java</li>
-                    <li>SQL</li>
-                    <li>phpMyAdmin</li>
+                    <li class="htmlcss">HTML5/CSS3</li>
+                    <li class="js">JavaScript</li>
+                    <li class="jquery">jQuery</li>
+                    <li class="php">PHP</li>
+                    <li class="java">Java</li>
+                    <li class="sql">SQL</li>
+                    <li class="phpmy">phpMyAdmin</li>
                 </ul>
             </section>
 
@@ -65,15 +92,15 @@
                 <h2>Expérience</h2>
                 <ul>
                     <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Co-fondateur de <em>l'Agence Du Web</em></li>
+                    <li>Co-fondateur de <em>I Need SomeOne</em></li>
                     <li></li>
                     <li></li>
                 </ul>
                 <h2>Formations</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><em>Junior Web Developer</em> à <em>BeCode.org</em></li>
+                    <li><em>UX Design</em> à la <abbr>HEAJ</abbr></li>
                     <li></li>
                 </ul>
             </section>
@@ -92,6 +119,8 @@
             </footer>
             
             <script src="./js/jquery.js"></script>
+            <script src="./js/jquery_appear.js"></script>
+            
             <script src="./js/app.js"></script>
         
         </main>
