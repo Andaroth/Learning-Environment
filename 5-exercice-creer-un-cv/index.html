@@ -4,8 +4,9 @@
     <head>
         <title>Axel Fiolle</title>
         <meta charset="utf-8" />
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 800px)" href="./css/portable.css" />
     </head>
     
     <body>
@@ -15,18 +16,39 @@
             <div class="chara">
                 <h1>Axel Fiolle</h1>
             </div>
-            <div class="banner">
+            <div class="about">
                 <h2>Junior Web Developer</h2>
                 <p>Depuis mon enfance, j'ai toujours été intéressé par le monde virtuel. J'ai appris à employer les outils de réalisation graphique ainsi qu'à dompter l'art du code. </p>
+                <div class="prez floater">
+                    <div class="txright">
+                        <ul>
+                            <li>Âge:</li>
+                            <li>Mail:</li>
+                            <li>Tel:</li>
+                            <li>Langues:</li>
+                        </ul>
+                    </div>
+                    <div>
+                       <ul>
+                            <li>24</li>
+                            <li>
+                                <address>
+                                    <a href="mailto:ax.fiolle@gmail.com">ax.fiolle@gmail.com</a>
+                                </address>
+                            </li>
+                            <li>0 487 609 133</li>
+                            <li>Français, <br/>Anglais</li>
+                        </ul>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                       <li><a class="goScroll folio" href="#folio">Créations</a></li>
+                        <li><a class="goScroll skills" href="#skills">Compétences</a></li>
+                        <li><a class="goScroll learn" href="#learn">Formation</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                   <li><a class="goScroll folio" href="#folio">Créations</a></li>
-                    <li><a class="goScroll skills" href="#skills">Compétences</a></li>
-                    <li><a class="goScroll learn" href="#learn">Formation</a></li>
-                    <li><a class="goScroll about" href="#about">À propos</a></li>
-                </ul>
-            </nav>
         </section>
         
         <main class="allcontent">
@@ -61,33 +83,41 @@
                             <li>
                                 <h3>Développement front-end de A à Z</h3>
                                 <ul class="dotted">
-                                    <li>Développement de l'UI en HTML/CSS</li>
-                                    <li>Animations et effets en JS/jQuery</li>
-                                    <li>Mise en place DataBases</li>
-                                    <li>Modules dynamiques en PHP</li>
+                                    <li>Développement de l'UI en <strong>HTML/CSS</strong></li>
+                                    <li>Animations et effets en <strong>JS/jQuery</strong></li>
+                                    <li>Mise en place de DataBases</li>
+                                    <li>Modules dynamiques en <strong>PHP</strong></li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>Création de sites WordPress</h3>
                                 <ul class="dotted">
                                     <li>Installation et mise en ligne</li>
-                                    <li>Template personnalisé</li>
+                                    <li>Templates personnalisés</li>
                                     <li>Installation et configuration de plugins</li>
-                                    <li>Optimisation SEO</li>
+                                    <li>Optimisation pour le SEO</li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>Créations d'Applis web et mobiles</h3>
                                 <ul class="dotted">
-                                    <li>Développement en Java ou Cordova</li>
-                                    <li>Optimisation UX/UI</li>
+                                    <li>Développement en Java ou <strong>Cordova</strong></li>
+                                    <li>Optimisation <strong>UX/UI</strong></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Infographie</h3>
+                                <ul class="dotted">
+                                    <li>Bitmap (<strong>Photoshop</strong>, Gimp)</li>
+                                    <li>Vectoriel (<strong>Illustrator</strong>)</li>
+                                    <li>Mise en page (InDesign)</li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <ul class="skills_technos">
-                            <li class="htmlcss techno_open">
+                            <li class="htmlcss">
                                 <h3>HTML5/CSS3</h3>
                             </li>
                             <li class="js">
@@ -114,9 +144,10 @@
             </section>
 
             <section id="learn">
+                <h2>Parcours professionel</h2>
                 <div class="floater">
                     <div>
-                        <h2>Expérience</h2>
+                        <h3>Expérience</h3>
                         <ul class="dotted">
                             <li>Co-fondateur de <em>l'Agence Du Web</em></li>
                             <li>Co-fondateur de <em>I Need SomeOne</em></li>
@@ -124,9 +155,9 @@
                         </ul>
                     </div>
                     <div>
-                        <h2>Formations</h2>
+                        <h3>Formations</h3>
                         <ul class="dotted">
-                            <li><em>Junior Web Developer</em> à <em>BeCode.org</em></li>
+                            <li><strong><em>Junior Web Developer</em> à <em>BeCode.org</em></strong></li>
                             <li><em>UX Design</em> à la <em><abbr title="Haute École Albert Jacquard">HEAJ</abbr></em></li>
                             <li><em>Infographie-sup</em> à la <em><abbr title="Haute École Albert Jacquard">HEAJ</abbr></em></li>
                             <li><em>Infographie</em> à <em>l'<abbr title="Institut Provencial des Arts et Métiers">IPAM</abbr></em></li>
@@ -135,23 +166,10 @@
                 </div>
             </section>
 
-            <section id="about">
-                <h2>À propos</h2>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
-            
-            <footer>
-                
-            </footer>
-
         </main>
         
         <script src="./js/jquery.js"></script>
-        <script src="./js/jquery_appear.js"></script>
+        <!-- <script src="./js/jquery_appear.js"></script> -->
 
         <script src="./js/app.js"></script>
         

@@ -60,7 +60,7 @@ h1 {
 
 .allcontent {
     display: block;
-    margin-left: 270px;
+    margin-left: 25%;
 }
 
 .sidebar {
@@ -70,7 +70,7 @@ h1 {
     left: 0;
     
     height: 100vh;
-    width: 270px;
+    width: 25%;
     
     padding: 10px;
     
@@ -110,11 +110,11 @@ nav ul li a:hover {
 main section {
     clear: both;
     display: block; 
-    min-height: 100vh;
     border-bottom: 10px solid aliceblue;
     margin-bottom: 20px;
     
     padding: 15px;
+    padding-bottom: 50px;
 }
 
 
@@ -137,10 +137,33 @@ main section h3 {
     grid-template-columns: 50% 50%;
     grid-gap: 10px; 
     width: 80%;
+    margin: 0 auto;
 }
 
 .floater div {
     margin-top: 0;
+}
+
+.prez {
+    grid-template-columns: 30% auto;
+    grid-gap: 5px; 
+    width: 100%;
+    
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.prez div ul li {
+    border-bottom: 1px solid #EEE;
+}
+.prez div ul li:last-child {
+    border-bottom: none;
+}
+
+.txright {
+    text-align: right;
+    border-right: 1px solid #EEE;
+    padding-right: 5px;
 }
 
 #folio {
@@ -149,10 +172,10 @@ main section h3 {
 
 #folio ul {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 15px;
-    
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
     width: 80%;
+    margin: 0 auto;
 }
 #folio ul li {
     display: block;
@@ -185,18 +208,33 @@ main section h3 {
 }
 
 .skills_technos {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-gap: 10px;
-    width: 100%;
 }
 
 .skills_technos li {
+    display: block;
+    float: left;
+    
+    height: 100px;
+    width: 100px;
+    
+    margin: 0 10px 10px 0;
+    
+    text-indent: 100%;
+    white-space: nowrap;
     overflow: hidden;
     
-    border-bottom: 1px solid lightgrey;
-    width: 100%;
+    background-size: 100px;
+    background-position: center;
 } 
+
+    li.htmlcss { background-image: url("../img/html.png"); }
+    li.js { background-image: url("../img/js.png"); }
+    li.jquery { background-image: url("../img/jquery.png"); }
+    li.php { background-image: url("../img/php.png"); }
+    li.java { background-image: url("../img/java.png"); }
+    li.sql { background-image: url("../img/sql.png"); }
+    li.phpmy{ background-image: url("../img/phpmy.png"); }
+
 .techno_open {
     max-height: none;
 }
