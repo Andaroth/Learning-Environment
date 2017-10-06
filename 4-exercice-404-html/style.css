@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("./fonts/Ubuntu-L.ttf");
+} 
+@font-face {
+    font-family: UbuntuM;
+    src: url("./fonts/Ubuntu-M.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/bg.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: Ubuntu;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.card { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+    display: block;
+    width: 50px;
+    min-width: 500px;
+    background: rgba(0,0,0,.7);
+    
+    text-align: center;
+    
+    padding: 15px 25px;
+    
+    border-radius: 15px;
+    
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    margin: 5px auto;
+    
+    font-family: UbuntuM;
+    color: lightblue;
+}
+h1:after {
+    content: "";
+    
+    display: block;
+    
+    width: 80%;
+    height: 3px;
+    
+    margin: 3px auto;
+    
+    background: slateblue;
+}
+
+p {
+    color: aliceblue;
+    font-size: 1.5em; 
+    
+    line-height: 140%;
+}
+span {
+    font-style: oblique;
+}
+
+a {
+    display: block;
+    width: 175px;
+    
+    background: green;
+    
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    
+    padding: 10px 15px;
+    margin: 25px auto 0 auto;
+    
+    border: 2px solid green;
+    border-radius: 7px;
+    
+    transition: .2s ease-in-out;
+}
+a:hover {
+    transform: scale(1.2);
+    
+    background: transparent;
+}
