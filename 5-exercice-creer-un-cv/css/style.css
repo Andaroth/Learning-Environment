@@ -241,3 +241,7 @@ main section h3 {
 .skills_techno li h3 {
     margin: auto;
 }
+
+.mobonly {
+    display: none;
+}
