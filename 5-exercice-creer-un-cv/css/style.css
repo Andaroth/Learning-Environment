@@ -228,7 +228,8 @@ main section h3 {
     background-position: center;
 } 
 
-    li.htmlcss { background-image: url("../img/html.png"); }
+    li.html { background-image: url("../img/html.png"); }
+    li.css { background-image: url("../img/css.png"); }
     li.js { background-image: url("../img/js.png"); }
     li.jquery { background-image: url("../img/jquery.png"); }
     li.php { background-image: url("../img/php.png"); }
@@ -236,9 +237,6 @@ main section h3 {
     li.sql { background-image: url("../img/sql.png"); }
     li.phpmy{ background-image: url("../img/phpmy.png"); }
 
-.techno_open {
-    max-height: none;
-}
 .skills_techno li h3 {
     margin: auto;
 }
