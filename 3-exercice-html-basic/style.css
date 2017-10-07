@@ -206,9 +206,9 @@ a.button:focus {
 /* Chaque colonne devra suivre ces règles */
 .three_col div{
     float: left; 
-    width: 220px;
-    /* Le margin à 50px à droite et en bas définit les goutières et en même temps pousse le bas de la <section> pour augmenter la lisibilité */
-    margin: 0 50px 50px 0;
+    width: 235px;
+    /* Le margin à droite et en bas définit les goutières et en même temps pousse le bas de la <section> pour augmenter la lisibilité */
+    margin: 0 47px 50px 0;
 }
 /* Excepté la dernière */
 .three_col div:last-child {
