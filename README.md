@@ -9,3 +9,4 @@
 - [Créer un CV](./5-exercice-creer-un-cv)
 - [VCard](./6-exercice-vcard-html)
 - [Star Wars](./7-exercice-star-wars)
+- [Tim Berner Lee](./8-exercice-summary)
