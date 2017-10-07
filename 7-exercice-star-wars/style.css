@@ -7,8 +7,9 @@
 }
 
 @keyframes showHide {
-    from {opacity: 1;}
-    to {opacity: 0;}
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
 }
 
 body {
@@ -55,7 +56,7 @@ img {
     
     line-height: 100vh;
     
-    width: 400px;
+    width: 100%;
     text-align: cent er;
     
     background: black;
@@ -82,4 +83,5 @@ p {
     line-height: 2em;
     
     width: 100%;
+    text-align: justify;
 }
