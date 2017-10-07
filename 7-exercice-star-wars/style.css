@@ -1,8 +1,8 @@
 @keyframes crawler {
     0% {transform: translate3d(0,100vh,0); opacity: 0;}
     .5% {transform: translate3d(0,100vh,0); opacity: 1;}
-    60% {opacity: 1;}
-    70% {opacity: 0;}
+    80% {opacity: 1;}
+    95% {opacity: 0;}
     100% {transform: translate3d(0,-100vh,0);}
 }
 
