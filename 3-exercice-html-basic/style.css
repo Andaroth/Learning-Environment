@@ -30,6 +30,12 @@ body {
     /* Et ici j'indique que la police par défaut de la page est Roboto, que j'ai appelée en haut, dans le font-face */
     font-family: Roboto;
 }
+#top {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 header {
     /* block pour pouvoir lui donner facilement la forme que je veux */
@@ -391,7 +397,7 @@ J'utilise before pour créer une forme de type block sans devoir l'écrire dans 
 #goTop {
     /* Fixed pour l'avoir tout le temps à portée de main */
     position: fixed;
-    display: block;
+    display: flex;
     width: 40px;
     height: 40px;
     /* En bas à droite pour qu'il ne gêne pas le design */
@@ -400,13 +406,20 @@ J'utilise before pour créer une forme de type block sans devoir l'écrire dans 
     
     border-radius: 4px;
     background: rgba(0,0,0,.6);
-    /* On cache le texte du bouton sans faire de text-indent de m*rde */
+    /* On cache le texte du bouton sans faire de text-indent de m*rde 
     text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 #goTop:hover {
     background: grey;
     /* On change le curseur en pointeur au survol pour indiquer qu'on peut cliquer */
     cursor: pointer;
+}
+#goTop { text-decoration: none; }
+a#goTop i {
+    display: block;
+    margin: auto;
+    color: white;
+    font-size: 2em;
 }

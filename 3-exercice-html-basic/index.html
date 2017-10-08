@@ -6,9 +6,13 @@
         <meta charset="utf-8" />
         <!-- Force l'échelle (zoom) à 100% -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <link rel="stylesheet" type="text/css" href="style.css" />
         <!-- Pour les écrans de moins de 800px de large (mobiles), appliquer ce CSS en plus du précédent -->
         <link rel="stylesheet" type="text/css" media="screen and (max-width: 800px)" href="portable.css" />
+        
     </head>
     
     <body>
@@ -28,7 +32,7 @@
             </nav>
         </header>
         <!-- La première section, la bannière et la *phrase d'accroche* (donations, lol) -->
-        <section class="welcome" id="top">
+        <section class="welcome">
             <!-- L'encadré des donations -->
             <div class="box">
                 <h2 class="boxtitle">We accept no corporate or government donations</h2>
@@ -102,7 +106,7 @@
         </section>
         <!-- Un bouton pour revenir en haut de la page (WIP), on lui donne un ID pour pouvoir faire un scroll en douceur avec le app.js -->
         <a href="#top" id="goTop">
-            Retour en haut
+            <i class="fa fa-arrow-circle-o-up"></i>
         </a>
         <!-- J'appelle jQuery et mon app.js à la fin du document, on m'a appris que ça éviterait aux scripts de s'exécuter avant que la page ne soit entièrement chargée. -->
         <script type="text/javascript" src="./js/jquery.js"></script>     
