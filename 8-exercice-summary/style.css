@@ -21,6 +21,11 @@ body {
 
 a { 
     text-decoration: none;
+    
+    transition: .2s ease;
+}
+a:hover {
+    transform: scale(1.1);
 }
 
 p {
@@ -60,7 +65,7 @@ h3 {
     border-radius: 50%;
 }
 
-a.button {
+.button {
     font-family: Open Sans;
     color: white;
     
@@ -114,8 +119,4 @@ ul li a {
     color: #ccc;
     font-size: 1.2em;
     font-weight: 300;
-}
-
-ul li a i {
-    font-weight: 700;
 }

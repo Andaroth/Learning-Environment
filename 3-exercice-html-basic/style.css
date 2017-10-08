@@ -358,12 +358,12 @@ J'utilise before pour créer une forme de type block sans devoir l'écrire dans 
     /* Tu connais */
     float: left; 
     display: block;
-    /* Espacement entre les tuiles */
+    /* Espacement entre les tuiles (haut, droite, bas, gauche) */
     margin: 0 28px 28px 0;
 }
 /* Tous les <li> de la 4ème colonne */
 .assos li:nth-child(4n) {
-    /* Sont privés de padding right pour fit les 800px */
+    /* Sont privés de margin right pour fit dans les 800px */
     margin: 0 0 28px 0;
 }
 /* On donne la forme des tuiles sur la <a> pour que toute la surface soit clicable */

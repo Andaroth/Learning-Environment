@@ -1,15 +1,12 @@
 // Ceci permet d'éxécuter le app.js APRÈS que la page ait fini de charger
-$(document).ready(function(){
+$(document).ready(function() {
     
-    // à l'appui de l'élément #goTop
-    $("#goTop").click(function(){
-        /* On demande de faire 
-            animate  en une demi seconde, cela scroll vers le haut de la page avec une transition
-        */
-        $("html, body").animate({ 
-           scrollTop: $( $(this).attr("href") ).offset().top // ( aller à > cette page > en haut)
-        }, 500); // durée en ms de l'animation
+    // Sauce : http://www.design-fluide.com/17-11-2013/un-defilement-anime-smooth-scroll-en-jquery-sans-plugin/
+    $('#goTop').on('click', function() { // Au clic sur un élément
+        var page = $(this).attr('href'); // Page cible
+        var speed = 500; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
         return false;
-    }); // onClick end
+    });
     
 });
