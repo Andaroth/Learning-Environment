@@ -193,21 +193,34 @@ main section h3 {
     height: 200px;
     
     padding: 15px;
+    margin: 15px 0;
+    
+    border: 1px solid grey;
     
     background-color: midnightblue;
     
     transition: .2s cubic-bezier(.68,-0.55,.27,1.55);
+    
+    background-position: center;
+    background-size: cover;
 }
 #folio ul li a span {
     margin: auto;
     
     color: white;
+    background: rgba(0,0,0,.7);
     font-family: RobotoM;
     text-align: center;
 }
 #folio ul li a:hover {
     transform: scale(1.1);
 }
+.myweb { background-image: url("../img/ownsite.jpg"); }
+.vcard { background-image: url("../img/vcard.png"); }
+.mytumblr { background-image: url("../img/owntumblr.jpg"); }
+.agencedu { background-image: url("../img/agencedu.png"); }
+.lugestudio { background-image: url("../img/lugestudio.jpg"); }
+.greenpeace { background-image: url("../img/greenpeace.jpg"); }
 
 .skills_technos {
 }
