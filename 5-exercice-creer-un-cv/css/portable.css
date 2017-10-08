@@ -1,3 +1,5 @@
+
+
 .about {
     display: block;
 }
@@ -11,6 +13,9 @@
     background: rgba(255,255,255,.7);
     
     overflow-y: initial;
+    
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
 }
 
 .pdp { 
@@ -27,6 +32,21 @@
     
     height: 70px;
     overflow: hidden;
+}
+@media screen and (max-width:450px) {
+    
+    .chara h1 {
+        font-size: 2em;
+        line-height: 2em;
+        paddin-left: 5px;
+        text-align: left;
+    }
+    
+}
+
+
+main section h2 {
+    margin-bottom: 40px;
 }
 
 .about {

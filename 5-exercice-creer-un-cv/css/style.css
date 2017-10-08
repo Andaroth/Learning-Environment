@@ -35,6 +35,10 @@ a {
     color: blue;
 }
 
+.toUpper {
+    text-transform: capitalize;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: RobotoM;
     color: deepskyblue;
@@ -87,7 +91,6 @@ h1 {
 nav ul {
     display: block;
 }
-
 nav ul li a {
     display: block;
     
@@ -160,6 +163,10 @@ main section h3 {
 }
 .prez div ul li:last-child {
     border-bottom: none;
+}
+
+.two_lines_h {
+    padding-bottom: 23px;
 }
 
 .txright {
