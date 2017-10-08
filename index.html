@@ -1,0 +1,44 @@
+<html>
+<head>
+<script type="text/javascript" language="javascript">
+
+function getFilesInDir(formObj) 
+{   
+  var oShell = new ActiveXObject("Shell.Application");
+  var oFolder = new Object;                         
+  oFolder = oShell.BrowseForFolder(0, "Choose a folder", 0);
+  var oFolderItem = new Object;          
+  oFolderItem = oFolder.Items().Item();      
+  formObj.parentFolder.value = oFolder.Items().Item();
+  formObj.fullPath.value = oFolderItem.Path;
+  oFolder = oShell.NameSpace(oFolderItem);
+  if (oFolder != null)
+  {
+      var oFolderItems;
+      oFolderItems = oFolder.Items();
+      if (oFolderItems != null)
+      {
+        var oFolderItem;
+        var x = '';
+        var max = oFolderItems.Count;
+
+        for (var i = 1; i <= max; i++)
+        {
+         oFolderItem = oFolderItems.Item(oFolderItems.Count - i);
+         x += oFolderItem.Name + "\n";
+        }
+      }
+   }
+   formObj.theContents.value = x;
+}    
+</script>
+</head>
+<body>
+<form name="a">
+Full Path:<input type="TEXT" name='fullPath'>
+Folder:<input type='text' name='parentFolder'>
+<input type="button" value="Browse" onclick='getFilesInDir(this.form)'>
+<textarea name="theContents" rows="5" cols="40"></textarea>
+</form> 
+</body>
+</html>
