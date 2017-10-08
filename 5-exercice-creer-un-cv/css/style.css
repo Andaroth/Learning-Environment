@@ -230,7 +230,8 @@ main section h3 {
 .lugestudio { background-image: url("../img/lugestudio.jpg"); }
 .greenpeace { background-image: url("../img/greenpeace.jpg"); }
 
-.skills_technos {
+.infog {
+    color: blueviolet;
 }
 
 .skills_technos li {
@@ -271,4 +272,17 @@ main section h3 {
 
 .mobonly {
     display: none;
+}
+
+.psd {
+    clear: both;
+}
+.psd:before {
+    content: "";
+    display: block;
+    
+    background: blueviolet;
+    height: 5px;
+    width: 200px;
+    margin: 0 auto;
 }
