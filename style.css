@@ -41,6 +41,7 @@ table.remove-hidden > tbody > tr.hidden-object {
 }
 td {
   white-space: nowrap;
+border-right: 1px solid black;
 }
 table.ellipsis {
   width: 100%;
