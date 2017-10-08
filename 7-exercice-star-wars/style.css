@@ -79,6 +79,10 @@ img {
     opacity: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
 p {
     line-height: 2em;
     
