@@ -1,6 +1,6 @@
 @keyframes crawler {
     0% {transform: translate3d(0,100vh,0); opacity: 0;}
-    .5% {transform: translate3d(0,100vh,0); opacity: 1;}
+    .25% {transform: translate3d(0,100vh,0); opacity: 1;}
     80% {opacity: 1;}
     95% {opacity: 0;}
     100% {transform: translate3d(0,-100vh,0);}
@@ -14,7 +14,7 @@
 
 body {
     background: black;
-    background-image: url("./img/space.jpg");
+    background-image: url("./img/spaaace.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -38,13 +38,13 @@ img {
 
 .longtime {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 0;
+    top: 0;
     
-    transform: translate(-50%,-50%);
+    display: flex;
     
     font-family: arial;
-    text-align: center;
+    
     
     color: skyblue;
     opacity: 0;
@@ -54,12 +54,13 @@ img {
     animation-name: showHide;
     animation-duration: 9s;
     
-    line-height: 100vh;
-    
     width: 100%;
+    height: 100vh;
     text-align: cent er;
     
     background: black;
+    
+    z-index: 10;
 }
 
 .perspective {
@@ -69,12 +70,12 @@ img {
     
     margin: 0 auto;
     
-    transform: perspective(300px) rotateX(25deg);
+    transform: perspective(300px) rotateX(15deg);
 }
 
 .slider {
     animation-name: crawler;
-    animation-duration: 60s;
+    animation-duration: 90s;
     
     opacity: 0;
 }
@@ -88,4 +89,10 @@ p {
     
     width: 100%;
     text-align: justify;
+}
+
+.longtime p {
+    margin: auto;
+    text-align: left;
+    width: 500px;
 }
