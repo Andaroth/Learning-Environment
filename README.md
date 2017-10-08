@@ -1,6 +1,6 @@
 # Axel Fiolle
 
-## Vous trouverez ici un dossier pour chaque exercice demandé pour La Praire de BeCode
+## Vous trouverez ici un dossier pour chaque exercice demandé pour La Prairie de BeCode
 
 - [Markdown To HTML](./1-exercice-markdown-to-html)
 - [Markdown To HTML&CSS](./2-exercice-markdown-to-html-and-css)
