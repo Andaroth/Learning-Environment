@@ -11,4 +11,4 @@
 
 
 ## Les contraintes
-- C'était parfois un peu ennuyeux d'être limité aux balises `<table>`, `<tr>` et `<td>`. Étant peu utilisée pour faire de la mise en page, je n'en ai quasiment aucune utilité, je dois donc parfois me concentrer un petit peu pour réussir à organiser le tableau correctement. 
+C'était parfois un peu ennuyeux d'être limité aux balises `<table>`, `<tr>` et `<td>`. Étant peu utilisées pour faire de la mise en page, je n'en ai quasiment aucune utilité, je dois donc parfois me concentrer un petit peu pour réussir à organiser le tableau correctement. 
