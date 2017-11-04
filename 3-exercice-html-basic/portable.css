@@ -36,8 +36,16 @@
     margin: 0;
     padding: 15px;
 }
+.about {
+    padding-top: 150px;
+}
 /* Les 3 points de description se suivent en vertical pour une meilleure expérience sur téléphones */
+.three_col {
+    display: block;
+    padding-bottom: 5px;
+}
 .three_col div {
+    display: block;
     width: 100%;
     padding: 0 50px;
 }

@@ -196,25 +196,27 @@ a.button:focus {
     /* ... et légèrement agrandir la taille du <a> au survol pour rendre la sensation du bouton clicable */
     transform: scale(1.1);
 }
+.about {
+    padding-top: 100px;
+}
 /* Cette hauteur de ligne me semble judicieuse pour une lecture agréable tout en restant compact sur tous les appareils */
 .about ul li p { 
     line-height: 1.5em; 
 }
 /* Le container pour les trois points de présentation */
 .three_col {
-    /* On lui donne le display block pour pouvoir l'utiliser un peu comme un tableau */
-    display: block;
+    /* On lui donne le display grid pour pouvoir avoir trois colonnes */
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 5%;
     /* je délimite la zone à 800px pour une lecture plus confortable */
     max-width: 800px;
     /* le margin horizontal réglé sur auto permet d'aligner les blocks au centre  */
     margin: 0 auto;
 }
-/* Chaque colonne devra suivre ces règles */
 .three_col div{
-    float: left; 
-    width: 235px;
-    /* Le margin à droite et en bas définit les goutières et en même temps pousse le bas de la <section> pour augmenter la lisibilité */
-    margin: 0 47px 50px 0;
+    /* Le padding pousse le bas de la <section> pour augmenter la lisibilité */
+    padding-bottom: 15px;
 }
 /* Excepté la dernière */
 .three_col div:last-child {
@@ -374,7 +376,7 @@ J'utilise before pour créer une forme de type block sans devoir l'écrire dans 
 }
 /* On donne la forme des tuiles sur la <a> pour que toute la surface soit clicable */
 .assos li a {
-    display: block;
+    display: flex;
     
     width: 179px;
     height: 179px;
@@ -392,6 +394,7 @@ J'utilise before pour créer une forme de type block sans devoir l'écrire dans 
 .assos li a img {
     max-height: 179px;
     max-width: 179px;
+    margin: auto;
 }
 /* Le bouton pour remonter tout en haut du site */
 #goTop {
