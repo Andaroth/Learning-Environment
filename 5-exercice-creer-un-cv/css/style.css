@@ -82,6 +82,8 @@ h1 {
     
     direction: rtl;
     overflow-y: scroll;
+    
+    transform: translateX(-15px);
 }
 .sidebar * {
     direction: ltr;
