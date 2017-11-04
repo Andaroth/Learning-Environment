@@ -326,6 +326,7 @@ J'utilise before pour créer une forme de type block sans devoir l'écrire dans 
     /* float right car flemme de calculer le margin */
     float: right;
     width: 220px;
+    background: #151515;
 }
 /* Le style du texte accompagnant la vidéo */
 .videotitle { color: darkgreen; }
