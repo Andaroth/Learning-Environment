@@ -29,6 +29,7 @@
 .playersection div div.player_text {
     clear: both;
     width: 100%;
+    background: #151515;
 }
 
 .player_text p {
