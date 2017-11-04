@@ -79,6 +79,10 @@ nav {
     color: black;
 }
 
+#folio ul {
+    grid-template-columns: 50% 50%;
+}
+
 @media screen and (max-width:450px) {
     
     .chara h1 {
