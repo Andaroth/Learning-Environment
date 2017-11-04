@@ -39,7 +39,7 @@
 /* Les 3 points de description se suivent en vertical pour une meilleure expérience sur téléphones */
 .three_col div {
     width: 100%;
-    padding-right: 50px;
+    padding: 0 50px;
 }
 /* On change les tuiles et leur container en flexbox ... */
 .assos {
