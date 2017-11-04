@@ -79,6 +79,10 @@ nav {
     color: black;
 }
 
+.floater {
+    grid-template-columns: 100%;
+}
+
 #folio ul {
     grid-template-columns: 50% 50%;
 }
