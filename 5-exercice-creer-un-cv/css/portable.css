@@ -83,6 +83,10 @@ nav {
     grid-template-columns: 100%;
 }
 
+.superfloater {
+    grid-template-columns: 50% 50%;
+}
+
 #folio ul {
     grid-template-columns: 50% 50%;
 }
